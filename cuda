@@ -1,15 +1,15 @@
 
 GO HERE FIRST: 
-https://www.tensorflow.org/install/so...
+https://www.tensorflow.org/install/source_windows#gpu
 
 1. Microsoft Visual Studio
 * https://visualstudio.microsoft.com/vs...
 
 2. the NVIDIA CUDA Toolkit
-* https://developer.nvidia.com/cuda-too...
+* https://developer.nvidia.com/cuda-toolkit-archive
 
 3. NVIDIA cuDNN
-* https://developer.nvidia.com/cudnn
+* https://developer.nvidia.com/rdp/cudnn-download
 
 4. Python (check compatible version from first link)
 conda create --name tf_2.4 python==3.8
