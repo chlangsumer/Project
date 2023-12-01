@@ -16,3 +16,6 @@ conda create --name tf_2.4 python==3.8
 
 5. Tensorflow (with GPU support)
 pip install tensorflow
+
+#For Data Augmentation
+https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html
