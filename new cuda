@@ -1,9 +1,14 @@
-************First************
+________First Method_____________
+Uninstall All NVIDIA Graphics Driver in Setting -> Apps & Features and
+Delete NVIDIA folders on both Program Files present in C Drive
+Check Tensorflow GPU compatibility
+
 Installation Process:
 1. Install VC_redist.x64
 2. CUDA
-3. Copy files cuDNN
-4. Install TensorFlow
+3. Copy files cuDNN & paste to CUDA  Computing Toolkit file
+4. Install TensorFlow with version you want
+5. Go to Website Use a GPU to check the GPU detection using jupyter notebook
 
 
 ***************Second****************
