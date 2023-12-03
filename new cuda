@@ -1,0 +1,38 @@
+************First************
+Installation Process:
+1. Install VC_redist.x64
+2. CUDA
+3. Copy files cuDNN
+4. Install TensorFlow
+
+
+***************Second****************
+Steps:
+
+1. Uninstall all NVIDIA Drivers/Software and delete all NVIDIA files from program files (x86 aswell)
+
+2. Install Visual Studio 2017 (from link above)
+
+3. Install CUDA (first check compatible versions using link above)
+
+4. Download cuDNN (again check version is same as CUDA version)
+
+5. Extract the cuDNN zip folder to your desktop. Open a new windows explorer and navigate to C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\Vx.x\ . Now copy the contents of the downloaded and extracted cuDNN folder into the appropriate folders (files from cuDNN bin go into the new windows explorer bin folder etc.).
+
+6. Navigate to your system enviorment variables and edit the path. Add the following two directories into your path:
+-  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin
+- C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\libnvvp
+
+7. Download and Install Anaconda (from link above)
+
+8. Set up a virtual enviorment using python 3.5
+- conda create -n [name] python=3.5
+
+9. Activate the virtual enviorment
+- activate [name]
+
+10. Install packages
+- pip install --ignore-installed --upgrade tensorflow-gpu
+- pip install keras
+- pip install pandas (optional)
+- pip install numpy (optional)
